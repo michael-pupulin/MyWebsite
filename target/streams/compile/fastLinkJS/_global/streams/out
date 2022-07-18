@@ -1,0 +1,22 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/michaelpupulin/trial/target/scala-2.13/trial-fastopt[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 18767 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 2913 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 28943 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 12103 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 15 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 6486 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 19548 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 4636 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 265 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 5816 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 50 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 24 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 198 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 359 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 6847 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 403 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 46 -- invalidated: 2[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 106 -- invalidated: 4[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 9098 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: Write result: 14529 us[0m

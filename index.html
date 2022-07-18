@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Site!</title>
+  <link rel="stylesheet" media="screen" href="./main.css" >
+</head>
+
+<body>
+
+
+
+
+<section id="top">
+<div class="bg-image">
+
+  <div class="icon_box">
+    <a href='https://www.linkedin.com/in/michael-pupulin/' target="_blank"><img class="icon" src="./images/LI.png") /></a>
+
+    <a href='https://github.com/michael-pupulin' target="_blank"><img class="icon" src="./images/gitpic.png") /> </a>
+
+    <a href='https://foodfromthought.ca/expert/michaelpupulin/' target="_blank"><img class="icon" src="./images/uog.jpeg")/> </a>
+
+    <a href='https://public.tableau.com/app/profile/michael.pupulin' target="_blank"><img class="icon" src="./images/tab.icns")/> </a>
+  </div>
+
+  <div class="jump_box">
+
+    <button type="button" class="tb" onClick="document.getElementById('Me').scrollIntoView();"> About Me </button>
+
+    <button type="button" class="tb" onClick="document.getElementById('Work').scrollIntoView();"> Work History </button>
+
+    <button type="button" class="tb" onClick="document.getElementById('edu').scrollIntoView();"> Education </button>
+
+    <button type="button" class="tb" onClick="document.getElementById('ct').scrollIntoView();"> Contact </button>
+
+
+  </div>
+
+  <p class = "subheader" >  Welcome to my website. I'm Michael, a graduate student in applied math at The University of Guelph. I like to use tools such as R, Scala and Spark. </p>
+
+
+</div>
+</section>
+
+
+<section id="Me">
+  <div class="mepage">
+
+    <h1 class="aboutheader"> About Me </h1>
+
+    <ul class="favlist">
+      <li style="display: inline-block;"><strong> Favourite books :</strong>  Prisoner of Azkaban, The Half Blood Prince, The Lost Symbol, Small Gods and Anxious People.</li>
+      <li style="display: inline-block;"><strong> Favourite movies :</strong>  Good Will Hunting, The Lord of the Rings, Harry Potter, Star Wars and Howl's Moving Castle.</li>
+      <li style="display: inline-block;"><strong> What I'm learning :</strong>  Right now I am learning how to create web applications with Scala and Scala.js.
+        I used these tools to build this website. I am also learning how to work with big data using Scala and Spark.
+        I plan to learn more about the Akka toolkit, Slick, AWS and Kafka in future projects. </li>
+    </ul>
+
+
+
+
+      <div id="show" class="picbox">
+
+        <figure>
+          <img id="myimage" class="slide" src="./images/hqp.jpg") />
+          <figcaption id="caption" style="color:black;">That's me.</figcaption>
+        </figure>
+
+      </div>
+      <div class="buttonbox">
+        <button class="picbut" onclick="doClickStuff()">Next!</button>
+      </div>
+
+
+  </div>
+
+
+
+  <script  src= "main.js" > </script>
+
+
+</section>
+
+<section id="Work">
+  <div class="workpage">
+    <h1 class="aboutheader"> My Work History </h1>
+    <h2 style="margin-top: 5px;"> Tutor at Oxford Learning Center. May 2022 to Present. </h2>
+      <ul class="joblist">
+        <li > Tutoring students in physics, math and english.</li>
+        <li > A good opportunity to work on my communication skills and ability to teach. </li>
+      </ul>
+    <h2 style="margin-top: 20px;"> Teaching Assistant at The University of Guelph. September 2020 to May 2022. </h2>
+    <ul class="joblist">
+      <li > Delivering material for math courses such as calculus and numerical methods.</li>
+      <li > Working with students during office hours to ensure they feel confident with course material. </li>
+    </ul>
+    <h2 style="margin-top: 20px;"> Consultant for The Ontario Apple Growers. September 2020 to January 2021. </h2>
+    <ul class="joblist">
+      <li> Analyzing pricing data to generate reports with R.</li>
+      <li > Automating the reporting process with R and R-Markdown. </li>
+    </ul>
+    <h2 style="margin-top: 20px;"> Research Assistant for the Ontario Ministry of Agriculture, Foods and Rural Affairs. Summer of 2019 and May 2020 to January 2021. </h2>
+    <ul class="joblist">
+      <li > Developed a Python script to automate what was previously a 4 hour job,
+        but now takes about 30 minutes on my personal laptop through the use of the Selenium,
+        BeautifulSoup and Pandas libraries.</li>
+      <li > Developed multiple Shiny web apps through R to display
+        weather data and disease forecasting predictions relevant to Ontario growers.</li>
+      <li > Assisted in research through data collection, data cleaning data analysis and data visualization.</li>
+      <li > Wrote an article comparing two of the main forecasting models for Fireblight.
+        This was published in a ministry newsletter.</li>
+      <li > Performed data analysis on disease and pest data collected at the Simcoe research station.
+        Generated reports for growers, primarily using R.</li>
+    </ul>
+    <h2> See some of my work below! </h2>
+    <br>
+      <figure>
+        <img id="workimg" class="workslide" src="./images/eb.png") />
+        <figcaption id="workcaption" style="color:black;"> My EasyBlight app, made with R and R Shiny. </figcaption>
+      </figure>
+      <button class="workbut" onclick="workslides()">Next!</button>
+  </div>
+</section>
+
+<section id="edu">
+    <div class="edpage">
+      <h1 class="aboutheader"> Education </h1>
+      <h2 style="margin-top: 5px;"> Master of Science - Applied Math. The University of Guelph. </h2>
+      <ul class="joblist">
+        <li> <strong> Courses taken:</strong> Scientific Computing (with C), Functional Analysis, Optimization,
+          Partial Differential Equations,  and Agri-Food Innovation. Average 87.2%.</li>
+        <li> <strong> Thesis: A spatial model to describe an outbreak of fire blight during bloom.</strong>  I formulated a
+          model for fire blight spread during bloom using differential equations. I studied them analytically with calculus and fixed point theorems
+          and then ran statistical simulation experiments to draw conclusions about the behaviour of the disease.</li>
+        <li > <strong> Canadian Mathematical Society Conference.</strong> I was invited to be a speaker at the 2022 CMS summer conference
+        in St. John's, Newfoundland. It was a twenty-minute talk delivered to an audience of experts and colleges. The title of my
+        presentation was "Travelling wave solutions in a model of fire blight spread".</li>
+        <figure >
+          <img  class="cmspic" src="./images/cms.jpeg") />
+          <figcaption style="color:black;"> Me, presenting at the 2022 CMS Summer Conference. </figcaption>
+        </figure>
+
+        <li > <strong>HQP Scholarship</strong>  The Highly Qualified Personnel Scholarship Program funds graduate students whose research
+        aligns with the Ministry of Agriculture's priorities. One condition of the scholarship is that I enroll and complete the Agri-Food and Innovation course.
+        In this course, I was paired with an Ontario-based Agri-Food company and tasked with solving a problem they were faced with.
+        We would meet weekly with a representative from the company so that we could give updates and receive feedback. My group and I produced
+        multiple deliverables, including a summary report and an  informative video. My own personal contribution was an app made through Shiny and R.
+        See it <a href="https://michael-pupulin.shinyapps.io/final/">here</a>, as well as the picture below. </li>
+        <figure >
+          <img  class="cmspic" src="./images/gl.png") />
+          <figcaption style="color:black;"> The app I made for my company partner. </figcaption>
+        </figure>
+      </ul>
+      <h2 style="margin-top: 20px;"> Bachelor of Science. Mathematics and Statistics. McMaster University. </h2>
+      <ul class="joblist">
+        <li > Data Management Specialist on The McMaster Interdisciplinary Satellite Team - <em> NEUDOSE Project, Science Team.</em></li>
+      </ul>
+      <h2 style="margin-top: 20px;"> Online Certificates. </h2>
+      <ul class="joblist">
+        <li> Advanced Google Analytics - <em>Google Analytics Academy</em>.</li>
+        <li > Data Visualization with Tableau - <em>Coursera</em>. </li>
+        <li > Deeplearning.AI TensorFlow Developer - <em>Coursera</em>. </li>
+        <li > Databases and SQL for Data Science, IBM cognitive class- <em>Coursera</em>. </li>
+      </ul>
+    </div>
+
+
+</section>
+
+<section id="ct">
+  <div class="contpage">
+  <h1 style="color: White"> Reach out to me!</h1>
+    <br>
+    <br>
+    <p style="color: White"> Personal Email: michael.l.pupulin&#64;gmail.com </p>
+    <br>
+    <p style="color: White"> School Email: mpupulin&#64;uoguelph.ca </p>
+    <br>
+    <button type="button" class="btt" onClick="document.getElementById('top').scrollIntoView();"> Back to top </button>
+  </div>
+</section>
+
+</body>
+
+</html>

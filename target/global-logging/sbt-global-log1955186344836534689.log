@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(fastLinkJS, Some(deaee842-69fc-4b15-b6b4-6f1336b208db), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / fastLinkJS[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/michaelpupulin/trial/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/michaelpupulin/trial/target/scala-2.13/trial-fastopt[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 3 -- invalidated: 2 -- trees read: 2[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 18-Jul-2022 1:33:34 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
