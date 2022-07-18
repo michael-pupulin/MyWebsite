@@ -184,8 +184,7 @@ li { margin-bottom: 10px;margin-top: 20px; margin-left:20px; margin-right:20px}
     margin: auto;
     position: relative;
    justify-content: center;
-   max-width: 30%;
-   max-height: 30%
+   width: 30%;
 
 }
 
