@@ -28,8 +28,8 @@
 }
 
 .icon{
-    width: 50px;
-    height: 50px;
+    width: max(3vw,50px);
+    height: max(3vw,50px);
     margin-left: 5px;
     margin-right: 5px;
 }
