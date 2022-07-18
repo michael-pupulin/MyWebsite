@@ -6,3 +6,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 3 -- invalidated: 2 -- trees read: 2[0m
 [0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 18-Jul-2022 1:33:34 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
