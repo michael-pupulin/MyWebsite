@@ -239,8 +239,8 @@ li { margin-bottom: 10px;margin-top: 20px; margin-left:20px; margin-right:20px}
 }
 
 .workslide{
-    max-height: 90%;
-    width: 100%;
+    max-height: 80%;
+    width: 80%;
     position: relative;
        border-style: double;
        border-color: black;
